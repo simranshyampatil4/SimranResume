@@ -1,0 +1,71 @@
+body {
+    background: rgb(204,204,204);
+    justify-content: center;
+}
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 20px;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+i{
+    margin-right: 10px;
+    color: rgb(49, 116, 49);
+}
+page[size="A4"] {  
+    width: 21cm;
+    height: 35.7cm; 
+}
+.title{  
+    text-align: center;
+    font-size: 25 ;
+    font-family:"Times Roman" ;
+    font-weight: 700;
+    color: rgb(49, 116, 49);
+}
+.list-1 li
+{
+    list-style-type: none;
+}
+.list-2 li
+{
+    list-style-type: none;
+}
+.list-container {
+    display: flex; 
+  }
+  
+.list-1, .list-2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.list-1 li, .list-2 li {
+    margin: 10px; 
+    padding: 10px; 
+}
+.left-column {  
+    margin-left: 45px;
+    font-family: "Times Roman";
+    font-size: 16px;
+    border-right: 1px solid #ccc; /* Add the vertical line */
+    padding-right: 20px; 
+}
+.right-column {  
+    margin-right: 45px;
+    font-family: "Times Roman";
+    font-size: 16px;
+}
+.content {
+    display: flex;
+    gap: 40px;
+    position: relative;
+}    
+/* Add this CSS with !important to ensure the style is applied */
+
+  
+  
