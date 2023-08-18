@@ -3,7 +3,7 @@ body {
     justify-content: center;
 }
 page {
-    background: white;
+    background: pink;
     display: block;
     margin: 0 auto;
     padding: 20px 20px;
@@ -16,15 +16,15 @@ i{
     color: rgb(49, 116, 49);
 }
 page[size="A4"] {  
-    width: 21cm;
+    width: 25cm;
     height: 35.7cm; 
 }
 .title{  
     text-align: center;
     font-size: 25 ;
     font-family:"Times Roman" ;
-    font-weight: 700;
-    color: rgb(49, 116, 49);
+    font-weight: 900;
+    color: blue;
 }
 .list-1 li
 {
